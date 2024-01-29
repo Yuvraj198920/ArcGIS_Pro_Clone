@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic GIS Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="map-container">
+      <img src="map_placeholder.png" alt="Map placeholder">
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li>Layers</li>
+        <li>
+          <input type="checkbox" id="basemap">
+          <label for="basemap">Basemap</label>
+        </li>
+        <li>
+          <input type="checkbox" id="points">
+          <label for="points">Points of Interest</label>
+        </li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search location">
+        <button type="button">Search</button>
+      </div>
+      <div class="legend">
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
